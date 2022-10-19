@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#div {
+  text-align: left;
+  padding: 3%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background-color: #cc005f;
+  background-image: url("https://i.pinimg.com/736x/b6/1f/a4/b61fa44945f218a3b004f5f4f11d39aa.jpg");
+}
+
+#inputTag {
+  display: none;
+}
+label {
+  cursor: pointer;
+}
+#imageName {
+  color: green;
+}
+#button:hover {
+  background-color: #cc005f;
+  color: "white";
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #f1f1f1; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #f1f1f1; */
+}
